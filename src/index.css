@@ -3,3 +3,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menu-item {
+  @apply flex h-full relative items-center cursor-pointer font-bold text-pink-200 p-2 hover:text-zinc-200 hover:bg-white/10 transition ease-in-out;
+}
+
+h1 {
+  @apply text-6xl;
+}
+
+h2 {
+  @apply text-5xl;
+}
+
+h3 {
+  @apply text-4xl;
+}
+
+h4 {
+  @apply text-3xl;
+}
+
+h5 {
+  @apply text-2xl font-bold;
+}
+
+h6 {
+  @apply text-xl font-light;
+}
